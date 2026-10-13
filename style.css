@@ -843,7 +843,12 @@ footer span a {
     }
 
     .home .home-content .text-3 {
-        font-size: clamp(21px, 6vw, 27px);
+        font-size: clamp(14px, 4.5vw, 19px);
+    }
+
+    .home .home-content .specialization {
+        display: inline-block;
+        white-space: nowrap;
     }
 
     .home .home-content a {
