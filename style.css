@@ -471,7 +471,7 @@ section .title::after {
 }
 
 .skills .skills-content .left p {
-    text-align: justify;
+    text-align: center;
     color: var(--muted);
 }
 
