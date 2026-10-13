@@ -212,9 +212,9 @@ section .title::after {
     object-fit: cover;
     display: block;
     background: var(--accent);
-    border: 5px solid var(--accent);
+    border: 2px solid var(--accent);
     box-shadow: 0 12px 25px var(--shadow);
-    padding: 5px;
+    padding: 2px;
     border-radius: 0;
 }
 
