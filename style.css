@@ -218,9 +218,11 @@ section .title::after {
 }
 
 .about .about-content .right text {
+    display: block;
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .about .about-content .right text span {
@@ -228,7 +230,7 @@ section .title::after {
 }
 
 .about .about-content .right p {
-    text-align: justify;
+    text-align: center;
     color: var(--muted);
     margin: 15px 0 25px 0;
 }
@@ -875,7 +877,6 @@ footer span a {
         font-size: 21px;
     }
 
-    .about .about-content .right p,
     .skills .skills-content .left p,
     .contact .contact-content .left p {
         text-align: left;
