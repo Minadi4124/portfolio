@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
             menu.classList.toggle("active");
             menuBtn.querySelector("i").classList.toggle("fa-times");
         });
+
+        menu.querySelectorAll(".menu-btn").forEach((link) => {
+            link.addEventListener("click", () => {
+                menu.classList.remove("active");
+                menuBtn.querySelector("i").classList.remove("fa-times");
+            });
+        });
     }
 
     const galleryTrigger = document.querySelector(".greenhouse-gallery-trigger");
