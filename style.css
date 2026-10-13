@@ -373,8 +373,8 @@ section .title::after {
     transition: color 0.3s ease, opacity 0.3s ease;
 }
 
-.projects .serv-content .card p + p {
-    margin-top: 14px;
+.projects .serv-content .card .project-description {
+    margin-top: 24px;
 }
 
 .services .serv-content .card p {
