@@ -9,11 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
             menuBtn.querySelector("i").classList.toggle("fa-times");
         });
 
-        menu.querySelectorAll(".menu-btn").forEach((link) => {
-            link.addEventListener("click", () => {
-                menu.classList.remove("active");
-                menuBtn.querySelector("i").classList.remove("fa-times");
-            });
+        menu.addEventListener("click", (event) => {
+            if (!(event.target instanceof Element) || !event.target.closest(".menu-btn")) {
+                return;
+            }
+
+            menu.classList.remove("active");
+            menuBtn.querySelector("i").classList.remove("fa-times");
         });
     }
 
