@@ -229,6 +229,10 @@ section .title::after {
     color: var(--accent);
 }
 
+.about .about-content .right .about-nowrap {
+    white-space: nowrap;
+}
+
 .about .about-content .right p {
     text-align: center;
     color: var(--muted);
